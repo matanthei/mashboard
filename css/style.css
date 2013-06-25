@@ -1,0 +1,150 @@
+/*=================================*/
+/* Dashboard Theme
+/* By: Matt Heikkila
+/* http: //matanthei.com
+/* Based on CSS from http://www.netmagazine.com/tutorials/build-/basic-responsive-site-css
+/*=================================*/
+
+
+/* Fonts */
+@font-face {
+    font-family: 'Melbourne';
+        src: url('/fonts/Melbourne bold basic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+/* clear default styles */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{
+	margin:0;
+	padding:0;
+	border:0;
+	font:inherit;
+	font-size:100%;
+	vertical-align:baseline;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+}
+
+/* Structure */
+#wrapper {
+	width: 96%;
+	max-width: 920px;
+	margin: auto;
+	padding: 2%;
+
+}
+
+#main {
+	margin: auto;
+/*	float: left; /* no need for float, single column only */
+}
+
+.panel1x1 {
+	width: 100px; 
+	height: 100px;
+}
+.panel2x1 {
+	width: 200px; 
+	height: 100px;
+}
+.panel3x1 {
+	width: 300px;
+	height: 100px;
+	padding: 20px;
+	text-align: center;
+}
+.panel1x2 {
+	width: 100px; 
+	height: 200px;
+}
+.panel2x2 {
+	width: 200px; 
+	height: 200px;
+}
+.panel3x2 {
+	width: 300px;
+	height: 200px;
+}
+
+.panel1x3 {
+	width: 100px; 
+	height: 300px;
+}
+.panel2x3 {
+	width: 200px; 
+	height: 300px;
+}
+.panel3x3 {
+	width: 300px;
+	height: 300px;
+}
+
+
+#time {
+	font-family: "Melbourne";
+	}
+
+h1 {
+	font-size: 4em;
+	color: #ffffff;
+	}
+	
+h2 {
+	font-size: 2em;
+	color: #2b4d64;
+	}
+
+
+#dashboard_main {
+	background-color:  #3ca4b3;
+	min-height: 50%;
+}
+/* width <= 480 - iPhone, Samsung, LG, HTC, Lumia. */
+@media screen and {max-width: 480px} {
+	#dashboard_main {
+		width:100%;
+		height:100px;
+	}
+}
+
+/* width <= 768 - Tablets, HTC, LG, Motorola, Nokia phones in landscape
+	iPad, iPad Mini, Samsung Galaxy Note
+*/
+@media screen and {max-width: 768px} {
+	#dashboard_main {
+		width: 768px; 
+		height: auto;
+	}	
+}
+
+/* width >= 960 - High res devices, desktop computers, iPad & ipad mini in landscape.
+*/
+@media screen and max-width: 960px} {
+	#dashboard_main {
+		width: 960px;
+		height: 100%;
+	}	
+}
+
+
+
+/* graph css */
+.axis path,
+.axis line {
+	fill:none;
+	stroke: #fff;
+	shape-rendering: crispEdges;
+}
+
+.area {
+	 fill: #3ddda4;
+}
+
+.line {
+	stroke: #fff;
+	stroke-width: 3px;
+	fill-opacity:0%;
+	}
