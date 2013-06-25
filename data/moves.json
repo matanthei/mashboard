@@ -1,0 +1,60 @@
+[{
+    "date": "20130315",
+    "summary": [
+        {
+            "activity": "wlk",
+            "duration": 2133,
+            "distance": 1847,
+            "steps": 2500
+        },
+        {
+            "activity": "run",
+            "duration": 254,
+            "distance": 436,
+            "steps": 624
+        },
+        {
+            "activity": "cyc",
+            "duration": 2688,
+            "distance": 4049
+        }
+    ]
+},
+{
+    "date": "20130316",
+    "summary": [
+        {
+            "activity": "wlk",
+            "duration": 3333,
+            "distance": 2222,
+            "steps": 1999
+        },
+        {
+            "activity": "run",
+            "duration": 123,
+            "distance": 345,
+            "steps": 456
+        }
+    ]
+},
+{
+    "date": "20130317",
+    "summary": null
+},
+{
+    "date": "20130318",
+    "summary": [
+        {
+            "activity": "wlk",
+            "duration": 3333,
+            "distance": 2222,
+            "steps": 4999
+        },
+        {
+            "activity": "run",
+            "duration": 123,
+            "distance": 345,
+            "steps": 2456
+        }
+	]
+}]
