@@ -9,7 +9,7 @@
 /* Fonts */
 @font-face {
     font-family: 'Melbourne';
-        src: url('/fonts/Melbourne bold basic.otf') format('opentype');
+        src: url('../fonts/Melbourne bold basic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
       }
@@ -96,7 +96,14 @@ h2 {
 	font-size: 2em;
 	color: #2b4d64;
 	}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+text {
+	font: 10px sans-serif;
+}
 
+	
 
 #dashboard_main {
 	background-color:  #3ca4b3;
@@ -136,6 +143,7 @@ h2 {
 .axis line {
 	fill:none;
 	stroke: #fff;
+	stroke-width: 3px;
 	shape-rendering: crispEdges;
 }
 
@@ -143,8 +151,18 @@ h2 {
 	 fill: #3ddda4;
 }
 
+.walk {
+	fill: #ffff00;
+}
+
 .line {
 	stroke: #fff;
 	stroke-width: 3px;
 	fill-opacity:0%;
 	}
+
+.target_line {
+	stroke-dasharray: 5,5; 
+	stroke: #fff;
+	stroke-width: 2px;
+}
